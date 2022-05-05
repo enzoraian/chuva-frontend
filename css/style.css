@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/******************/
+/**BARRA LATERAL**/
+/*****************/
+.nome-evento {
+  background: #F1843F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nome-evento p {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  padding: 1rem;
+}
+
+.logo img {
+  max-width: 100%;
+}
+
+/****************/
+/**HEADER TOPO**/
+/***************/
+header {
+  padding: 1rem 2rem;
+  background: #FDF1EB;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.usuario {
+  display: flex;
+}
+
+
+section {
+  padding: 1rem 2rem;
+  background: red;
+  height: 100vh;
+}

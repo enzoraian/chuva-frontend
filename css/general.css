@@ -1,0 +1,11 @@
+/***********************/
+/**ESTRUTURAÇÃO LAYOUT**/
+/***********************/
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.15fr 1fr;
+}
+
+main {
+  grid-column: 2;
+}
