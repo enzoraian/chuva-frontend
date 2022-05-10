@@ -1,0 +1,20 @@
+.border-around {
+  border: 1px solid var(--light-orange);
+  border-radius: 0.3rem;
+}
+
+.title {
+  background: var(--light-orange);
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 1.5rem;
+  border-radius: 0.3rem 0.3rem 0 0;
+  height: 4.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.description {
+  padding: 1.5rem;
+  font-size: 1.4rem;
+}

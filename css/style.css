@@ -3,6 +3,7 @@
 /*=============*/
 
 .header-top {
+  width: 100%;
   background: var(--light-orange);
   height: 6.8rem;
 }
@@ -135,32 +136,7 @@
   gap: 3rem;
 }
 
-.details {
-  border: 1px solid var(--light-orange);
-  border-radius: 0.3rem;
-}
-
-.details .title {
-  background: var(--light-orange);
-  border-radius: 0.3rem 0.3rem 0 0;
-  height: 4.5rem;
-  display: flex;
-  align-items: center;
-}
-
-.details .title h3 {
-  font-size: 2rem;
-  font-weight: 500;
-  padding: 1.5rem;
-}
-
-.details .description {
-  padding: 1.5rem;
-}
-
-.details .description p {
-  font-size: 1.4rem;
-}
+/**DETAILS**/
 
 .details .description span {
   font-weight: bold;
@@ -172,4 +148,90 @@
 
 .description .description-authors {
   margin-bottom: 4rem;
+}
+
+/**RESUME**/
+
+.resume {
+  margin-top: 3rem;
+}
+
+.resume .description span {
+  color: var(--orange);
+  font-weight: bold;
+}
+
+/**DISCUSSION**/
+
+.discussion {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.discussion .title {
+  width: 100%;
+
+}
+
+.discussion p:nth-child(2) {
+  color: var(--orange);
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.discussion .icons {
+  display: flex;
+  gap: 5.1rem;
+}
+
+.discussion p:nth-child(4) {
+  color: #595959;
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-family: "Quicksand", sans-serif;
+  max-width: 62.6rem;
+  text-align: center;
+}
+
+/**SUBJECT**/
+.subject {
+  border: 1px solid #e7e7e7;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+  border-radius: 0.4rem;
+  padding: 1.5rem;
+  margin: 0 1.5rem;
+}
+
+.subject-title, .subject-author, .subject-description, .subject-buttons {
+  font-family: "Quicksand", sans-serif;
+}
+
+.subject-title {
+  color: var(--orange);
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+
+.subject-author {
+  color: #5c5c5c;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.subject-description {
+  color: #4d4d4d;
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 1.1rem;
+}
+
+.subject-buttons {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
