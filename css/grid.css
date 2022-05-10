@@ -1,0 +1,15 @@
+.container-header-top {
+  width: 100%;
+  max-width: 114.6rem;
+  margin: 0 auto;
+
+  padding: 0 3.6rem 0 2.9rem;
+}
+
+.container-news {
+  width: 100%;
+  max-width: 114.6rem;
+  margin: 0 auto;
+
+  padding: 0 4.4rem;
+}

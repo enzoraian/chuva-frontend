@@ -5,93 +5,134 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!--CSS-->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/patterns.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
   <title>SLACA 2019</title>
 </head>
 
 <body>
-  <div class="grid-container">
-    <!--BARRA LATERAL-->
-    <aside class="barra-lateral">
-      <!--NOME DO EVENTO-->
-      <div class="nome-evento">
-        <p>Slaca 2019</p>
+
+  <!--HEADER TOP-->
+  <header class="header-top">
+    <div class="container-header-top">
+      <!--TITLE-->
+      <div class="title">
+        <span>Anais do Simpósio Latino Americano de Ciências de Alimentos </span>
+        <h2>Anais do 13º Simpósio Latino Americano de Ciência de Alimentos </h2>
+        <p>ISSN: 1234-5678</p>
       </div>
 
-      <!--LOGO-->
-      <div class="logo">
-        <img src="images/logo.png" alt="Logo SLACA 13">
+      <div class="user-profile">
+        <!--LANGUAGE-->
+        <div class="language">
+          <img src="images/language-image.png" alt="Language icon">
+          <p>pt, br</p>
+          <img src="images/dropdown.png" alt="Language dropdown">
+        </div>
+
+        <!--USER -->
+        <div class="user-description">
+          <div class="user-text">
+            <p class="welcome">Bem vindo!</p>
+            <p class="email">alguem12@galoascience.com</p>
+          </div>
+
+          <div class="user-photo">
+            <img src="images/user-photo.png" alt="User photo">
+          </div>
+        </div>
       </div>
+    </div>
+  </header>
 
-      <!--MENU LATERAL-->
-      <nav>
-        <ul class="menu-lateral">
-          <li>Apresentação</li>
-          <li>Comitês</li>
-          <li>Autores</li>
-          <li>Eixos temáticos</li>
-          <li>Trabalhos</li>
-          <li>Contato</li>
-        </ul>
-      </nav>
-    </aside>
+  <main>
+    <div class="container-news">
+      <!--SECTION NEWS-->
+      <section class="section-news">
+        <header class="header-news">
 
-    <main>
-      <!--HEADER TOPO-->
-      <header>
-        <div class="titulo">
-          <p>Anais do Simpósio Latino Americano de Ciências de Alimentos</p>
-          <h1>Anais do 13º Simpósio Latino Americano de Ciências de Alimentos</h1>
-          <p>ISSN: 1234-5678</p>
-        </div>
+          <!--TITLE-->
+          <h2>Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos, do
+            município
+            de
+            Campinas/SP </h2>
 
-        <div class="linguagem">
-          <div class="linguagem-icone"></div>
-          <div class="linguagem-texto">PT,BR</div>
-          <div class="linguagem-icone"></div>
-        </div>
+          <!--BUTTONS DONWLOAD, STAR-->
+          <div class="quote-work">
+            <div class="buttons">
+              <!--DONWLOAD-->
+              <div class="download">
+                <img src="images/download-icon.png" alt="">
+                <p>Download</p>
+              </div>
 
-        <!--USUÁRIO-->
-        <div class="usuario">
-          <div class="usuario-texto">
-            <p>Bem vindo!</p>
-            <p>alguem12@galoascience.com</p>
+              <!--STAR-->
+              <div class="star">
+                <img src="images/star-icon.png" alt="">
+              </div>
+
+              <!--DOI-->
+              <div class="doi">
+                <img src="images/doi-icon.png" alt="">
+              </div>
+            </div>
+            <p class="quote-this-work">Como citar esse trabalho?</p>
           </div>
+        </header>
 
-          <div class="usuario-icone">
-            icone usuario
-          </div>
-        </div>
-      </header>
-
-
-      <section>
-        <div class="principal">
-          <!--TITULO-->
-          <h2>Análise sensorial de preparações funcionais desenvolvidas para escolares entre entre 09 e 15 anos, do
-            munícipio de Campinas/SP
-          </h2>
-
+        <div class="video-container">
           <!--VIDEO-->
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/yyBj-aP2cMY" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
+          <video poster="images/video-thumb.png"></video>
+
+          <!--DETAILS-->
+          <div class="details">
+            <div class="title">
+              <h3>Detalhes</h3>
+            </div>
+
+            <div class="description">
+              <div class="description-title">
+                <p>Tipo de Apresentação: <span>Pôster</span></p>
+                <p>Eixo temático: <span>Alimentação e saúde (AS)</span></p>
+                <p>Palavras-chaves: <span>Alimentos funcionais, alimentação escolar.</span></p>
+              </div>
+
+              <div class="description-authors">
+                <p><span>Autores:</span></p>
+                <p>Galileo Galilei¹</p>
+                <p>Berta Lange de Morretes²</p>
+                <p>Isaac Newton³</p>
+                <p>Cesar Lattes¹</p>
+                <p>Stephen Hawking⁴</p>
+              </div>
+
+              <div class="description-university">
+                <p>¹Universidade Estadual de Campinas</p>
+                <p>²Universidade de São Paulo</p>
+                <p>³Instituto Nacional de Pesquisas Espaciais</p>
+                <p>⁴Universidade Federal do Rio de Janeiro</p>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div class="secundaria">
-          <div class="citar-trabalho"></div>
-
-          <div class="detalhes"></div>
-        </div>
-
-
-
 
       </section>
-    </main>
-  </div>
+    </div>
+  </main>
+
+
 </body>
 
 </html>

@@ -1,48 +1,175 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/*=============*/
+/**HEADER TOP**/
+/*=============*/
+
+.header-top {
+  background: var(--light-orange);
+  height: 6.8rem;
 }
 
-/******************/
-/**BARRA LATERAL**/
-/*****************/
-.nome-evento {
-  background: #F1843F;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.nome-evento p {
-  text-transform: uppercase;
-  color: #fff;
-  font-weight: 600;
-  padding: 1rem;
-}
-
-.logo img {
-  max-width: 100%;
-}
-
-/****************/
-/**HEADER TOPO**/
-/***************/
-header {
-  padding: 1rem 2rem;
-  background: #FDF1EB;
+.header-top .container-header-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.usuario {
-  display: flex;
+.header-top span, .header-top h2, .header-top p {
+  color: var(--brown);
+  font-weight: 400;
 }
 
+.header-top span {
+  font-size: 1.4rem;
+  margin-bottom: 0.2rem;
+}
 
-section {
-  padding: 1rem 2rem;
-  background: red;
-  height: 100vh;
+.header-top h2 {
+  font-size: 2.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.header-top p {
+  font-size: 1.4rem;
+}
+
+.header-top .user-profile {
+  display: flex;
+  gap: 2.2rem;
+}
+
+.language {
+  border: 1px solid #cccccc;
+
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.8rem;
+  height: fit-content;
+  border-radius: 0.3rem;
+}
+
+.language p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.user-description {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.user-text .welcome, .user-text .email {
+  font-family: "Quicksand", sans-serif;
+}
+
+.user-text .welcome {
+  font-size: 1.4rem;
+  text-align: right;
+}
+
+.user-text .email {
+  font-size: 1.2rem;
+}
+
+.user-photo img {
+  border-radius: 50%;
+}
+
+/*==============*/
+/**SECTION NEWS**/
+/*==============*/
+
+.section-news {
+  padding: 2rem 0 5rem 0;
+}
+
+.section-news .header-news {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-news h2 {
+  color: var(--orange);
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+  max-width: 78.6rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.buttons .download, .buttons .star, .buttons .doi {
+  background: var(--orange);
+  border-radius: 0.4rem;
+  display: flex;
+  align-items: center;
+  padding: 0.8rem 1rem;
+}
+
+.buttons .download {
+  gap: 1rem;
+}
+
+.buttons .download p {
+  color: var(--white);
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.quote-this-work {
+  color: var(--orange);
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+}
+
+.video-container {
+  display: flex;
+  gap: 3rem;
+}
+
+.details {
+  border: 1px solid var(--light-orange);
+  border-radius: 0.3rem;
+}
+
+.details .title {
+  background: var(--light-orange);
+  border-radius: 0.3rem 0.3rem 0 0;
+  height: 4.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.details .title h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 1.5rem;
+}
+
+.details .description {
+  padding: 1.5rem;
+}
+
+.details .description p {
+  font-size: 1.4rem;
+}
+
+.details .description span {
+  font-weight: bold;
+}
+
+.description .description-title {
+  margin-bottom: 2rem;
+}
+
+.description .description-authors {
+  margin-bottom: 4rem;
 }
