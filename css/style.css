@@ -3,7 +3,6 @@
 /*=============*/
 
 .header-top {
-  width: 100%;
   background: var(--light-orange);
   height: 6.8rem;
 }
@@ -74,6 +73,26 @@
   font-size: 1.2rem;
 }
 
+/*notification icon*/
+.user-photo {
+  position: relative;
+}
+
+.user-photo::after {
+  content: "2";
+  width: 1.5rem;
+  height: 1.5rem;
+
+  color: var(--white);
+  text-align: center;
+  background-color: var(--red);
+  border-radius: 1rem;
+
+  position: absolute;
+  left: 2.1rem;
+  top: -0.4rem;
+}
+
 .user-photo img {
   border-radius: 50%;
 }
@@ -84,6 +103,8 @@
 
 .section-news {
   padding: 2rem 0 5rem 0;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .section-news .header-news {
@@ -169,14 +190,14 @@
   flex-direction: column;
   align-items: center;
   gap: 2rem;
+  padding-bottom: 2rem;
 }
 
 .discussion .title {
   width: 100%;
-
 }
 
-.discussion p:nth-child(2) {
+.discussion .discussion-title {
   color: var(--orange);
   font-size: 1.8rem;
   font-weight: 700;
@@ -187,7 +208,7 @@
   gap: 5.1rem;
 }
 
-.discussion p:nth-child(4) {
+.discussion .discussion-description {
   color: #595959;
   font-size: 1.4rem;
   font-weight: 400;
@@ -195,6 +216,33 @@
   max-width: 62.6rem;
   text-align: center;
 }
+
+/*divider*/
+.divider {
+  width: 95%;
+  border-bottom: 1px solid #e7e7e7;
+  position: relative;
+  margin: 3rem 0;
+}
+
+/**create topic**/
+.create-topic {
+  background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+  color: var(--white);
+  font-size: 1.5rem;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  padding: 0.9rem 1.3rem;
+  border-radius: 0.4rem;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
 
 /**SUBJECT**/
 .subject {
