@@ -29,4 +29,5 @@ button {
 /*Responsividade*/
 img {
   max-width: 100%;
+  display: block;
 }

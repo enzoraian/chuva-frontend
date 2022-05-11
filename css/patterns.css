@@ -1,20 +1,27 @@
-.border-around {
-  border: 1px solid var(--light-orange);
-  border-radius: 0.3rem;
+.box {
+  border: 1px solid #ececec;
+  border-radius: 3px;
 }
 
-.title {
+.box-name {
+  border: 1px solid #ececec;
   background: var(--light-orange);
-  font-size: 2rem;
-  font-weight: 500;
-  padding: 1.5rem;
-  border-radius: 0.3rem 0.3rem 0 0;
   height: 4.5rem;
+
   display: flex;
   align-items: center;
 }
 
-.description {
-  padding: 1.5rem;
-  font-size: 1.4rem;
+.box-name p {
+  color: #4e4e4e;
+  font-size: 2rem;
+  font-weight: 500;
+  padding-left: 1.5rem;
+}
+
+
+/*resume*/
+
+.resume .resume-description {
+  padding-left: 1.5rem;
 }

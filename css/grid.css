@@ -1,15 +1,32 @@
-.container-header-top {
+.container-global {
   width: 100%;
-  max-width: 114.6rem;
+  max-width: 192rem;
   margin: 0 auto;
 
+  /*respiro para o mobile*/
+  padding: 0 1.5rem;
+
+  display: flex;
+}
+
+.container-side-menu {
+  width: 100%;
+  max-width: 22rem;
+}
+
+.container-content {
+  width: 100%;
+  max-width: 170rem;
+}
+
+.container-header {
+  width: 100%;
+  max-width: 170rem;
   padding: 0 3.6rem 0 2.9rem;
 }
 
 .container-news {
   width: 100%;
-  max-width: 114.6rem;
-  margin: 0 auto;
-
-  padding: 0 4.4rem;
+  max-width: 170rem;
+  padding: 0 4.3rem 0 4.5rem;
 }
