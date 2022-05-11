@@ -12,16 +12,9 @@
   align-items: center;
 }
 
-.box-name p {
+.box-name h3 {
   color: #4e4e4e;
   font-size: 2rem;
   font-weight: 500;
-  padding-left: 1.5rem;
-}
-
-
-/*resume*/
-
-.resume .resume-description {
   padding-left: 1.5rem;
 }

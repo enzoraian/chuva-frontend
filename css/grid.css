@@ -2,10 +2,6 @@
   width: 100%;
   max-width: 192rem;
   margin: 0 auto;
-
-  /*respiro para o mobile*/
-  padding: 0 1.5rem;
-
   display: flex;
 }
 
@@ -29,4 +25,22 @@
   width: 100%;
   max-width: 170rem;
   padding: 0 4.3rem 0 4.5rem;
+}
+
+main {
+  overflow-x: hidden;
+}
+
+.section-news {
+  overflow-x: hidden;
+}
+
+.second-div {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.container-content {
+  width: 100%;
+  overflow-x: hidden;
 }
